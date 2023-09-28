@@ -1,5 +1,5 @@
 /*nom : quiz géographie 
-fait par: Marty Rémi            le 27/09/2023             version 1.3 
+fait par: Marty Rémi            le 27/09/2023             version 1.4
 */
 
 #include<string>

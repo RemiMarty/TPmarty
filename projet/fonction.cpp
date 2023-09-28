@@ -1,5 +1,5 @@
-/*nom : quiz géographie 
-fait par: Marty Rémi            le 27/09/2023             version 1.3
+/*nom : quiz geographie 
+fait par: Marty Remi            le 27/09/2023             version 1.4
 */
 #include "fonction.h"
 #include <iostream>
@@ -27,10 +27,10 @@ void question1(string& reponse1){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Paris " <<endl;
     faux++;
     }
-    cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question2(string& reponse2){
@@ -52,10 +52,10 @@ void question2(string& reponse2){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Russie " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Russie " <<endl;
     faux++;
     }
-    cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question3(string& reponse3){
@@ -75,10 +75,10 @@ void question3(string& reponse3){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Chine " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Chine " <<endl;
     faux++;
     }
-    cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question4(string& reponse4){
@@ -98,10 +98,10 @@ void question4(string& reponse4){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Londres " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Londres " <<endl;
     faux++;
     }
-    cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "Pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question5(string& reponse5){
@@ -121,10 +121,10 @@ void question5(string& reponse5){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Berlin " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Berlin " <<endl;
     faux++;
     }
-    cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question6(string& reponse6){
@@ -164,10 +164,10 @@ void question6(string& reponse6){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait  Fosse des mariannes" <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait  Fosse des mariannes" <<endl;
     faux++;
     }
-    cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "Pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question7(string& reponse7){
@@ -187,10 +187,10 @@ void question7(string& reponse7){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Amazone " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Amazone " <<endl;
             faux++;
     }
-    cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "Pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question8(string& reponse8){
@@ -210,10 +210,10 @@ void question8(string& reponse8){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Everest " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Everest " <<endl;
              faux++;
     }
-    cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "Pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question9(string& reponse9){
@@ -233,10 +233,10 @@ void question9(string& reponse9){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Non " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait Non " <<endl;
              faux++;
     }
-    cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
+    cout << "pour repondre a la question suivante appuyez sur une touche " << endl;
     getchar();
 }
 void question10(string& reponse10){
@@ -256,13 +256,24 @@ void question10(string& reponse10){
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait 27 ou vingt-sept " <<endl;
+        cout << "mauvaise reponse ! la bonne reponse etait 27 ou vingt-sept " <<endl;
             faux++;
     }
     cout << "pour finir le test appuyez sur une touche " << endl;
     getchar();
 }
 void note(int& vrai,int& faux){
-cout << vrai << endl;
-cout<< faux << endl;
+
+if(vrai==10){
+    cout << " bravo ! tu es un genie de la geographie"<< endl;
+    cout << "tu as eu "<< vrai << " bonnes reponses, et"<< faux << " mauvaise reponse !" << endl;
+}
+else if ( vrai >=5){
+    cout << "pas mal tu te debrouille bien en geographie"<< endl;
+    cout << "tu as eu "<< vrai << " bonnes reponses, et"<< faux << " mauvaise reponse !" << endl;
+}
+else{
+    cout << "tu pourrais mieux faire retourne reviser"<< endl; 
+    cout << "tu as eu "<< vrai << " bonnes reponses, et"<< faux << " mauvaise reponse !" << endl;
+}
 }

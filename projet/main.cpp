@@ -1,5 +1,5 @@
 /*nom : quiz géographie 
-fait par: Marty Rémi            le 27/09/2023             version 1.3
+fait par: Marty Rémi            le 27/09/2023             version 1.4
 */
 #include"fonction.h"
 #include<fstream>
@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     array<string, 10> tableau ;
-    
+
     string const nomfichier("C:/Users/moi/Desktop/TPmarty/TPmarty/projet/historique.txt");
     ofstream monFlux(nomfichier.c_str());
     if (monFlux)
