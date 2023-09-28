@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     array<string, 10> tableau ;
-
+    
     string const nomfichier("C:/Users/moi/Desktop/TPmarty/TPmarty/projet/historique.txt");
     ofstream monFlux(nomfichier.c_str());
     if (monFlux)
@@ -30,6 +30,7 @@ int main(){
             monFlux << "la reponse de l'utilisateur est :" << tableau[i]<< endl;
         }
     }
+        note(vrai,faux);
 
 return 0;
 }

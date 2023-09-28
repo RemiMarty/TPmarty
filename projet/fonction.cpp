@@ -6,6 +6,9 @@ fait par: Marty Rémi            le 27/09/2023             version 1.3
 #include <string>
 using namespace std;
 
+int vrai = 0;
+int faux = 0; 
+
 void question1(string& reponse1){
     cout << "voici la premiere question" << endl;
     cout << "Quelle est la capitale de la France ?" << endl;
@@ -14,15 +17,18 @@ void question1(string& reponse1){
     if(reponse1 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+    vrai++;
+    cout << vrai << endl;
     }
     else if(reponse1 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+    vrai++;
     }
     else
     {
         cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+    faux++;
     }
     cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -35,15 +41,19 @@ void question2(string& reponse2){
     if(reponse2 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+    vrai++;
+        cout << vrai << endl;
+
     }
     else if(reponse2 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+    vrai++;
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait Russie " <<endl;
+    faux++;
     }
     cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -56,15 +66,17 @@ void question3(string& reponse3){
     if(reponse3 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+    vrai++;        
     }
     else if(reponse3 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+    vrai++;         
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait Chine " <<endl;
+    faux++;
     }
     cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -77,15 +89,17 @@ void question4(string& reponse4){
     if(reponse4 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+     vrai++;       
     }
     else if(reponse4 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+     vrai++;        
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait Londres " <<endl;
+    faux++;
     }
     cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -98,15 +112,17 @@ void question5(string& reponse5){
     if(reponse5 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else if(reponse5 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+             vrai++;
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait Berlin " <<endl;
+    faux++;
     }
     cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -115,19 +131,41 @@ void question6(string& reponse6){
     cout << "voici la sixieme question" << endl;
     cout << "Quel est le nom du point le plus profond des oceans ?" << endl;
     getline(cin,reponse6);
-    string correction("Fosse des mariannes"),correction2("fosse des mariannes");
+    string correction("Fosse des mariannes"),correction2("fosse des mariannes"),correction3("Fosse Des Mariannes"),correction4("fosse Des mariannes"), correction5("Fosse Des mariannes"), correction6("fosse Des Mariannes");
     if(reponse6 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else if(reponse6 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+             vrai++;
+    }
+    else if(reponse6 == correction3)
+    {
+         cout << "bravo bonne reponse !" << endl;
+             vrai++;
+    }
+    else if(reponse6 == correction4)
+    {
+         cout << "bravo bonne reponse !" << endl;
+             vrai++;
+    }
+    else if(reponse6 == correction5)
+    {
+         cout << "bravo bonne reponse !" << endl;
+             vrai++;
+    }
+    else if(reponse6 == correction6)
+    {
+         cout << "bravo bonne reponse !" << endl;
+             vrai++;
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait  Fosse des mariannes" <<endl;
+    faux++;
     }
     cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -140,15 +178,17 @@ void question7(string& reponse7){
     if(reponse7 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else if(reponse7 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait Amazone " <<endl;
+            faux++;
     }
     cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -161,15 +201,17 @@ void question8(string& reponse8){
     if(reponse8 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else if(reponse8 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait Everest " <<endl;
+             faux++;
     }
     cout << "Pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -182,15 +224,17 @@ void question9(string& reponse9){
     if(reponse9 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else if(reponse9 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait Non " <<endl;
+             faux++;
     }
     cout << "pour répondre a la question suivante appuyez sur une touche " << endl;
     getchar();
@@ -203,17 +247,22 @@ void question10(string& reponse10){
     if(reponse10 == correction )
     {
         cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else if(reponse10 == correction2)
     {
          cout << "bravo bonne reponse !" << endl;
+            vrai++;
     }
     else
     {
-        cout << "mauvaise reponse ! la bonne réponse etait Paris " <<endl;
-
+        cout << "mauvaise reponse ! la bonne réponse etait 27 ou vingt-sept " <<endl;
+            faux++;
     }
     cout << "pour finir le test appuyez sur une touche " << endl;
     getchar();
 }
- 
+void note(int& vrai,int& faux){
+cout << vrai << endl;
+cout<< faux << endl;
+}

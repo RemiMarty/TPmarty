@@ -16,6 +16,7 @@ void question7(string& reponse7);
 void question8(string& reponse8);
 void question9(string& reponse9);
 void question10(string& reponse10);
+void note(int& vrai,int& faux);
 
 
 #include"fonction.cpp"
