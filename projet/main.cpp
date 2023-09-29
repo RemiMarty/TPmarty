@@ -1,7 +1,8 @@
 /*nom : quiz géographie 
 fait par: Marty Rémi            le 27/09/2023             version 1.4
 */
-#include"fonction.h"
+//bibliothèque
+#include"fonction.h"//lien avec le header
 #include<fstream>
 #include<iostream>
 #include<string>
@@ -10,9 +11,10 @@ using namespace std;
 
 int main(){
     array<string, 10> tableau ;
-
+        // ouverture et connexion au fichier texte
     string const nomfichier("C:/Users/moi/Desktop/TPmarty/TPmarty/projet/historique.txt");
     ofstream monFlux(nomfichier.c_str());
+    //ecriture dans le fichier texte
     if (monFlux)
     {
         question1(tableau[0]);
@@ -30,6 +32,7 @@ int main(){
             monFlux << "la reponse de l'utilisateur est :" << tableau[i]<< endl;
         }
     }
+    //système de note
         note(vrai,faux);
 
 return 0;

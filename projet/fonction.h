@@ -1,11 +1,13 @@
 /*nom : quiz géographie 
 fait par: Marty Rémi            le 27/09/2023             version 1.4
 */
+//bibliothèque
 
 #include<string>
 #ifndef FONCTIONS_H
 #define FONCTIONS_H
 using namespace std;
+//inplémentaion des fonctions
 void question1(string& reponse1);
 void question2(string& reponse2);
 void question3(string& reponse3);

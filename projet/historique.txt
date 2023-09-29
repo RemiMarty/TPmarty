@@ -1,10 +1,10 @@
 la reponse de l'utilisateur est :Paris
-la reponse de l'utilisateur est :russie
-la reponse de l'utilisateur est :chine
-la reponse de l'utilisateur est :londres
-la reponse de l'utilisateur est :berlin
-la reponse de l'utilisateur est :je sais pas 
-la reponse de l'utilisateur est :nil
-la reponse de l'utilisateur est :everest
-la reponse de l'utilisateur est :non
-la reponse de l'utilisateur est :27
+la reponse de l'utilisateur est :Russie
+la reponse de l'utilisateur est :Chine
+la reponse de l'utilisateur est :Londres
+la reponse de l'utilisateur est :Berlin
+la reponse de l'utilisateur est :je sais pas
+la reponse de l'utilisateur est :.
+la reponse de l'utilisateur est :
+la reponse de l'utilisateur est :Non
+la reponse de l'utilisateur est :52
