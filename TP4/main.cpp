@@ -112,6 +112,22 @@ premier.attaquer (bb8);
 
 
 // Afficher les informations des Heros 
+cout << "********** Pendant le Combat *******" <<endl;
+rey.afficher();
+finn.afficher();
+kylo.afficher();
+bb8.afficher();
+premier.afficher();
+
+
+// Combat
+finn.changerarme ("Sabre Laser", 40);
+rey.attaquer (premier);
+finn.attaquer (premier);
+rey.attaquer (premier);
+
+
+// Afficher les informations des Heros 
 cout << "*********** Fin du Combat *********** "<<endl;
 /*yoda.afficher();
 luke.afficher();
