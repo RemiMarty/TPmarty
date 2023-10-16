@@ -12,4 +12,5 @@ Robots(std::string nomheros,int vieheros, std::string nomarme, int puissancearme
 private:
     int m_forcegadgets;
 };
+#include"Robots.cpp"
 #endif //Robots_h

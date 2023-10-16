@@ -12,4 +12,6 @@ Jedis(std::string nomheros,int vieheros, std::string nomarme, int puissancearme,
 private:
     int m_force;
 };
+
+#include"Jedis.cpp"
 #endif //Jedis_h

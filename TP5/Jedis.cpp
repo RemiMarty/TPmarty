@@ -5,7 +5,7 @@ using namespace std;
 Jedis::Jedis(string nomheros, int vieheros, string nomarme, int puissancearme): Heros(nomheros, vieheros, nomarme, puissancearme), m_force(100) // Constructeur avec les attributs du Heros à déterminer et m_force a 100
 {
 }
-Jedis::Jedis(string nomheros, int vieheros, string nomarme, int puissancearme, int force) Heros(nomheros, vieheros, nomarme, puissancearme), m_force(force) // Constructeur avec tous les attributs à déterminer
+Jedis::Jedis(string nomheros, int vieheros, string nomarme, int puissancearme, int force): Heros(nomheros, vieheros, nomarme, puissancearme), m_force(force) // Constructeur avec tous les attributs à déterminer
 {
 }
 void Jedis::utiliserLaForce(Heros &cible)

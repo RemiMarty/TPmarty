@@ -12,4 +12,5 @@ Siths(std::string nomheros,int vieheros, std::string nomarme, int puissancearme,
 private:
     int m_coteobscur;
 };
+#include"Siths.cpp"
 #endif //Siths_h

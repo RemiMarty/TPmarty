@@ -12,4 +12,5 @@ Humains(std::string nomheros, int vieheros, std::string nomarme, int puissancear
 private:
     int m_forcepoing;
 };
+#include"Humains.cpp"
 #endif //Humains_h
