@@ -13,3 +13,8 @@ void Humains::coupDePoing(Heros &cible)
 cout << m_nomheros << " attaque avec une force de " << m_forcepoing << endl;
 cible.diminuerVie(m_forcepoing);
 }
+void Humains::afficher() const // Méthode pour afficher les informations du héros
+{
+Heros::afficher();
+cout << "Force du coup de poing: " << m_forcepoing << endl;
+}

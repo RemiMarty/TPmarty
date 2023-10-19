@@ -13,3 +13,8 @@ void Siths::utiliserLeCoteObscur(Heros &cible)
 cout << m_nomheros << " attaque avec une force de " << m_coteobscur <<endl;
 cible.diminuerVie(m_coteobscur);
 }
+void Siths::afficher() const // Méthode pour afficher les informations du héros
+{
+Heros::afficher();
+cout << "Niveau de Cote Obscur: " << m_coteobscur << endl;
+}

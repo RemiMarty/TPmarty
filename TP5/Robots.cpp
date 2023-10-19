@@ -13,3 +13,8 @@ void Robots::utiliserLesGadgets (Heros &cible)
 cout << m_nomheros << " attaque avec une force de " << m_forcegadgets << endl;
 cible.diminuerVie(m_forcegadgets);
 }
+void Robots::afficher() const // Méthode pour afficher les informations du héros
+{
+Heros::afficher();
+cout << "Force des gadgets : " << m_forcegadgets << endl;
+}
